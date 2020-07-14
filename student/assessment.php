@@ -174,6 +174,8 @@ if ($conn->query($sql) === TRUE) {
                 </div>
                 <div id="main-wrapper">
                     <div class="row">
+                    <!-- Miss you amigos. Hopefully we'll work together again! :) -->
+                                        <!-- Dated - 13.07.2020 -->
                                 <div class="panel panel-white">
                                     <div class="panel-body">
                                         <div class="tabs-below" role="tabpanel">
@@ -203,7 +205,7 @@ if ($conn->query($sql) === TRUE) {
 											<div role="tabpanel" class="tab-pane active fade in" id="tab'.$qno.'">
                                              <p><b>'.$qno.'.</b> '.$qs.'</p>
 											 <p><input type="text" name="an'.$qno.'"  class="form-control" placeholder="Enter your answer" autocomplete="off">
-											 <input type="hidden" name="qst'.$qno.'" value="'.base64_encode($qs).'">
+                                             <input type="hidden" name="qst'.$qno.'" value="'.base64_encode($qs).'">
 											 <input type="hidden" name="ran'.$qno.'" value="'.base64_encode($ans).'">
                                              </div>
 											';	
